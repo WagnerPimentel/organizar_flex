@@ -17,7 +17,7 @@ header {
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between; /* Texto com o logo no canto esquerdo e o restante no direito */
+    justify-content: space-between;
 }
 
 .menu {
@@ -34,21 +34,17 @@ header {
     background: rgb(150, 37, 37);
 }
 
-.banner{
+.banner {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin: 20px 20px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
 }
-
-.banner img {
-    max-width: 500px;
-}
-
 
 h1 {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 img {
@@ -89,5 +85,5 @@ footer {
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between; /* Texto com o logo no canto esquerdo e o restante no direito */
+    justify-content: flex-end;
 }
